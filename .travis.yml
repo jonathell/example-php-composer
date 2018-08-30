@@ -7,7 +7,7 @@ php:
 - 7.1.9
 
 install:
-  - php vendor/vendors.php
+  - vendor/myvendor/mypackage/vendor/phpunit/phpunit/phpunit
 
  
 after_success:
