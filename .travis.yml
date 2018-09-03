@@ -3,10 +3,7 @@
 # Tell Travis CI we're using PHP
 language: php
 php:
-  - hhvm-3.18
-  - hhvm-nightly
-
-install: php vendor/vendors.php
+  - 7.1.9
 
 before_script:
   - curl -sSfL -o ~/.phpenv/versions/hhvm/bin/phpunit https://phar.phpunit.de/phpunit-5.7.phar
