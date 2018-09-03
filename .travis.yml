@@ -2,7 +2,7 @@
 
 # Tell Travis CI we're using PHP
 language: php
-php
+php:
   - hhvm-3.18
   - hhvm-nightly
   
